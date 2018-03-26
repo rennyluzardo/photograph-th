@@ -228,7 +228,7 @@ body a:hover
     font-size: 180px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-top: -75px;
+    margin-top: -1vh;
     color: #221c5a;    
 }
 
@@ -1307,7 +1307,7 @@ footer
     .section-content-holder .content-title 
     {    
         font-size: 140px;    
-        margin-top: -56px;
+        margin-top: 0px;
     }
 
     .member-content-holder 
