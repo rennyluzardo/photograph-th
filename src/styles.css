@@ -214,10 +214,10 @@ body a:hover
 
 .section-content-holder .content-title-holder
 {
-    overflow: hidden;
-    height: 100px;
-    margin-top: -60px;
-    padding-bottom: 50px;
+    /* overflow: hidden;
+    height: 100px; */
+    margin-top: -16vh;
+    /* padding-bottom: 50px; */
 }
 
 .section-content-holder .content-title
@@ -228,7 +228,7 @@ body a:hover
     font-size: 180px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-top: -1vh;
+    /* margin-top: -1vh; */
     color: #221c5a;    
 }
 
@@ -380,7 +380,7 @@ h1.big-title
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto;
-    z-index: 8;
+    z-index: 4;
 }
 
 #portfolio .section-title-holder
