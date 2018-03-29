@@ -1,0 +1,7 @@
+{
+  "consumerKey": "bZVyVqbW1TCN3oNNAwuZE12Uc",
+  "consumerSecret": "ZDw1SQ2lgsRu6loTR7DvSARUAEmYUeUEiz8CgYNUEZRiAOAUzZ",
+  "accessToken": "283903787-GrfcCsBH72pWyDA1YwWx0taKWm3BSEehTNfcUPAk",
+  "accessTokenSecret": "5iNUeZpK2MaDMqlKUs4vVc3bGzDrDFyojca3zJLTYtPUz",
+  "callBackUrl": "http://localhost:4200/"
+}
