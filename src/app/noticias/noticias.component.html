@@ -1,5 +1,5 @@
 <article class="relative blog-item-holder center-relative" *ngFor="let twt of totaltwts ">
-  <div class="num">{{twt.created_at}}</div>
+  <div class="num">{{twt.created_at | date}}</div>
   <div class="info">
       <div class="author vcard ">{{twt.user.name}}</div>
       <div class="cat-links">
