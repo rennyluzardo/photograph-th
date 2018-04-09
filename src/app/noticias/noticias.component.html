@@ -1,0 +1,17 @@
+<article class="relative blog-item-holder center-relative" *ngFor="let twt of totaltwts">
+  <div class="num">{{twt.created_at | date}}</div>
+  <div class="info">
+      <div class="author vcard ">{{twt.user.name}}</div>
+      <div class="cat-links">
+          <ul>
+              <li>
+                  <a href="#">BRANDING</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <h3 class="entry-title">
+      <a href="#">{{twt.text}}</a>
+  </h3>
+  <div class="clear"></div>
+</article>

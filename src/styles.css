@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif");
 @import "/assets/css/clear.css";
 @import "/assets/css/common.css";
 @import "/assets/css/font-awesome.min.css";
@@ -214,10 +214,10 @@ body a:hover
 
 .section-content-holder .content-title-holder
 {
-    overflow: hidden;
-    height: 100px;
-    margin-top: -60px;
-    padding-bottom: 50px;
+    /* overflow: hidden;
+    height: 100px; */
+    margin-top: -16vh;
+    /* padding-bottom: 50px; */
 }
 
 .section-content-holder .content-title
@@ -228,7 +228,7 @@ body a:hover
     font-size: 180px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-top: -75px;
+    /* margin-top: -1vh; */
     color: #221c5a;    
 }
 
@@ -380,7 +380,7 @@ h1.big-title
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto;
-    z-index: 8;
+    z-index: 4;
 }
 
 #portfolio .section-title-holder
@@ -670,7 +670,7 @@ div.pp_default .pp_loaderIcon
 {
     display: inline-block;
     width: 110px;
-    font-size: 48px;
+    font-size: 2em;
     font-weight: 900;
     color: #32db89;
 }
@@ -1307,7 +1307,7 @@ footer
     .section-content-holder .content-title 
     {    
         font-size: 140px;    
-        margin-top: -56px;
+        margin-top: 0px;
     }
 
     .member-content-holder 

@@ -42,3 +42,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+## ignore generated JavaScript files
+/functions/**/*.js
+/functions/**/*.js.map
