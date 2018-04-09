@@ -1,14 +1,20 @@
 {
-  "compilerOptions": {
-    "lib": ["es6"],
-    "module": "commonjs",
-    "noImplicitReturns": true,
-    "outDir": "public",
-    "sourceMap": true,
-    "target": "es6"
-  },
-  "compileOnSave": true,
-  "include": [
-    "server"
-  ]
+    "compilerOptions": {
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "module": "commonjs",
+        "noImplicitReturns": true,
+        "outDir": "app",
+        "sourceMap": true,
+        "target": "es5",
+        "typeRoots": [
+            "../node_modules/@types"
+          ]
+    },
+    "compileOnSave": true,
+    "include": [
+        "src"
+    ]
 }
