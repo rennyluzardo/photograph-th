@@ -6,11 +6,3 @@
 export const environment = {
   production: false
 };
-export const firebaseConf = {
-  apiKey: "AIzaSyB_YiCVMsjViqmhyzAVj4w0-Hoi9Wlqp4s",
-  authDomain: "grapher-th.firebaseapp.com",
-  databaseURL: "https://grapher-th.firebaseio.com",
-  projectId: "grapher-th",
-  storageBucket: "",
-  messagingSenderId: "33978499067"
-}

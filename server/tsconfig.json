@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "module": "commonjs",
+        "noImplicitReturns": true,
+        "outDir": "app",
+        "sourceMap": true,
+        "target": "es5",
+        "typeRoots": [
+            "../node_modules/@types"
+          ]
+    },
+    "compileOnSave": true,
+    "include": [
+        "src"
+    ]
+}
