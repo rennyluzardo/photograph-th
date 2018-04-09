@@ -1,0 +1,1 @@
+web: node /server/public/server/main.js
