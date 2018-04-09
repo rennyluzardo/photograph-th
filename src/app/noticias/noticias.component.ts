@@ -14,6 +14,6 @@ export class NoticiasComponent implements OnInit {
   totaltwts:Object
 
   ngOnInit() {
-    // this.noticias.getTwts().then(tweets=>this.totaltwts=tweets).catch(err=>console.log(err))
+    this.noticias.getTwts().then(tweets=>{this.totaltwts=tweets}).catch(err=>console.log(err))
   }
 }
