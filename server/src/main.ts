@@ -12,5 +12,5 @@ app.use(bodyParser.json());
 
 app.use('/', routes)
 
-let port = 8080
+let port = process.env.PORT || 3030
 app.listen(port, () => console.log(`Server listen on ${port}`))
