@@ -12,5 +12,5 @@ app.use(bodyParser.json());
 
 app.use('/', routes)
 
-let port = 3033
+let port = 8080
 app.listen(port, () => console.log(`Server listen on ${port}`))

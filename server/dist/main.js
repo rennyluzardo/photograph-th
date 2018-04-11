@@ -9,6 +9,6 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 app.use('/', routes_1.routes);
-var port = 3033;
+var port = 8080;
 app.listen(port, function () { return console.log("Server listen on " + port); });
 //# sourceMappingURL=main.js.map
