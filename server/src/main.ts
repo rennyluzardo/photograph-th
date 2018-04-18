@@ -8,5 +8,5 @@ app.use(express.static(__dirname + '/public'))
 
 app.use('/', routes)
 
-let port = process.env.PORT || 3030
+let port = process.env.PORT || 5000
 app.listen(port, () => console.log(`Server listen on ${port}`))
