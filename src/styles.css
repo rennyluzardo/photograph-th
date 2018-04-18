@@ -262,7 +262,9 @@ body a:hover
 
 
 /* HOME SECTION */
-
+.section-home {
+    background-color: #221c5a !important;
+}
 .intro-page 
 {
     padding-bottom: 170px;
@@ -322,7 +324,6 @@ h1.big-title
 
 
 /* SERVICE SECTION */
-
 #services
 {
     background-color: #221c5a;
