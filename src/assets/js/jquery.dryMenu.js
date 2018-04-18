@@ -15,6 +15,7 @@ jQuery(window).bind('scroll resize', function () {
     jQuery('.menu-wrapper').removeClass(function (index, css) {
         return (css.match(/(^|\s)section-\S+/g) || []).join(' ');
     }).addClass('section-' + currentSection);
+    console.log(currentSection)
 });
 
 jQuery(document).ready(function () {
