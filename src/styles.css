@@ -1569,7 +1569,9 @@ footer
 
     .intro-page
     {
-        min-height: 0;
+        /* min-height: 0; */
+        display: flex; 
+        align-items: center;
     }
 
     .section
