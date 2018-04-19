@@ -3,10 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = require("express");
 var Twitter = require('twitter-node-client').Twitter;
 var twtConf = {
-    "consumerKey": "bZVyVqbW1TCN3oNNAwuZE12Uc",
-    "consumerSecret": "ZDw1SQ2lgsRu6loTR7DvSARUAEmYUeUEiz8CgYNUEZRiAOAUzZ",
-    "accessToken": "283903787-GrfcCsBH72pWyDA1YwWx0taKWm3BSEehTNfcUPAk",
-    "accessTokenSecret": "5iNUeZpK2MaDMqlKUs4vVc3bGzDrDFyojca3zJLTYtPUz",
+    "consumerKey": "9Iy40Azq1p1eGEO302pTrLl3f",
+    "consumerSecret": "PPrEdjiII52jjMADKagf3qDPOWgs6wjNYxKVdKc5irmk0i0svZ",
+    "accessToken": "731840353-CFVFg9ra4f18mpuDrE4XHGRPHa5nVEkXfVQNeDux",
+    "accessTokenSecret": "cagJmYASdbAB5mOHYN0sDVnvDn2w2gYKRzA3K9VKUsumo",
     "callBackUrl": ""
 };
 var twitter = new Twitter(twtConf);
@@ -16,7 +16,7 @@ router.get('/', function (req, res) {
     res.sendFile(path.join('/index.html'));
 });
 router.get('/tweets_list', function (req, res) {
-    twitter.getUserTimeline({ screen_name: '_luzardorenny' }, function (error) { return res.send(error); }, function (success) { return res.send(success); });
+    twitter.getUserTimeline({ screen_name: 'MemePinta' }, function (error) { return res.send(error); }, function (success) { return res.send(success); });
 });
 exports.routes = router;
 //# sourceMappingURL=index.js.map
