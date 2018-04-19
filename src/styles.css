@@ -275,6 +275,8 @@ body a:hover
     background-position: center top; 
     background-size: cover;
     z-index: 10;
+    display: flex;
+    align-items: center;
 }
 
 .top-logo
@@ -300,6 +302,7 @@ h1.big-title
 .big-title span 
 {
     display: block;
+    color: burlywood;
 }
 
 .title-desc
