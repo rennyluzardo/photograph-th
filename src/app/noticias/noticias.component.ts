@@ -4,7 +4,7 @@ import { NoticiasService } from '../noticias.service';
 @Component({
   selector: 'app-noticias',
   templateUrl: './noticias.component.html',
-  styleUrls: ['./noticias.component.css'],
+  styleUrls: ['./noticias.component.less'],
   providers: [NoticiasService]
 })
 
